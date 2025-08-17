@@ -61,7 +61,7 @@ snr-enhancement-air-traffic/
 │ └── combined.m
 │
 ├── results/ # Output plots and comparison figures
-│ ├── nf_vs_snr.png
-│ ├── mrc_vs_single.png
-│ ├── ldpc_output_snr.png
-│ └── combined.png
+│ ├── noise_figure_improvement.png # NF = 6 dB vs 3 dB
+│ ├── antenna_diversity_mrc.png # Single antenna vs 4-branch MRC
+│ ├── ldpc_coding_bpsk.png # LDPC coded BPSK output SNR
+│ └── combined.png # All techniques compared
