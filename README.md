@@ -47,3 +47,21 @@ Example plot:
 ---
 
 ## 📂 Repository Structure
+snr-enhancement-air-traffic/
+│── README.md # Project documentation
+│── LICENSE # License file
+│
+├── report/ # Final project report
+│ └── snr2-3.pdf
+│
+├── matlab/ # MATLAB simulation codes
+│ ├── noise_figure_improvement.m
+│ ├── antenna_diversity_mrc.m
+│ ├── ldpc_coding_bpsk_manual.m
+│ └── combined.m
+│
+├── results/ # Output plots and comparison figures
+│ ├── nf_vs_snr.png
+│ ├── mrc_vs_single.png
+│ ├── ldpc_output_snr.png
+│ └── combined.png
