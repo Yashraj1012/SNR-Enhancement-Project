@@ -20,8 +20,8 @@ MATLAB scripts provided for each technique:
 
 - `noise_figure_improvement.m` → NF reduction improves SNR by ~3 dB  
 - `antenna_diversity_mrc.m` → MRC combining with 4 branches improves SNR by ~6 dB  
-- `ldpc_coding_bpsk_manual.m` → LDPC coding provides ~5 dB coding gain  
-- `combined_snr_improvements.m` → Combined results (~10 dB net improvement)
+- `ldpc_coding_bpsk.m` → LDPC coding provides ~5 dB coding gain  
+- `combined.m` → Combined results (~10 dB net improvement)
 
 ---
 
@@ -35,7 +35,7 @@ MATLAB scripts provided for each technique:
 | **Combined**                | **+10**     |
 
 Example plot:  
-(Insert results/comparison.png here)
+(Insert results/combined.png here)
 
 ---
 
@@ -57,7 +57,7 @@ snr-enhancement-air-traffic/
 ├── matlab/ # MATLAB simulation codes
 │ ├── noise_figure_improvement.m
 │ ├── antenna_diversity_mrc.m
-│ ├── ldpc_coding_bpsk_manual.m
+│ ├── ldpc_coding_bpsk.m
 │ └── combined.m
 │
 ├── results/ # Output plots and comparison figures
